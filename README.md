@@ -48,6 +48,8 @@ Generic "meeting notes" AI tools summarise the call. What a revenue team needs i
 
 ## Architecture
 
+![Workflow Overview](https://raw.githubusercontent.com/dhrobinsystems/n8n-hubspot-call-transcription-action-item-assigner/main/workflow-overview.png)
+
 ```mermaid
 flowchart LR
     A[HubSpot call completed<br/>or transcript property updated] -->|POST| B[HubSpot Call Engagement Webhook]
